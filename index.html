@@ -1,24 +1,246 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 11</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 11 Kínder 2</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión ¡Descifrando el Secreto de las Máquinas!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Describir que las acciones "inteligentes" de una máquina se basan en su programa o en su entrenamiento (datos).</li>
+<li>Desmitificar la tecnología, diferenciándola de la magia.</li>
+<li>Reforzar el pensamiento crítico y el cuestionamiento.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: ¡Despertando Cerebros Curiosos! (Paso 1: El Círculo del Misterio; Paso 2: Explorando la Magia y la Ciencia)</li>
+<li>⚡ Actividad 2: El Gran Show: ¿Ilusión o Instrucción? (Paso 1: El Truco Sorprendente; Paso 2: El Robot Asombroso)</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! Pintando la Verdad de las Máquinas (Paso 1: Organizando Nuestra Obra de Arte; Paso 2: Conversando con Crayones)</li>
+<li>⚡ Actividad 4: Misión Cumplida: ¡Nuestros Cerebros Son la Verdadera Magia! (Paso 1: Compartiendo Descubrimientos; Paso 2: El Gran Final de la Misión)</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Explicación sencilla sobre cómo un robot sigue instrucciones.</li>
+<li>Diferenciación verbal entre acciones mágicas y acciones programadas.</li>
+<li>Participación activa en el diálogo sobre el funcionamiento de las máquinas.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Kinderbot.</li>
+<li>Hojas para colorear con dibujos de magos y de robots.</li>
+<li>Crayones.</li>
+<li>Varita mágica (para el maestro).</li>
+<li>Destornillador de juguete (para el maestro).</li>
+<li>Moneda o pañuelo pequeño (para el truco de magia).</li>
+<li>Bloque rojo o un objeto de color rojo (para la demostración de Kinderbot).</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos. Tener a mano la varita mágica, el destornillador de juguete y el Kinderbot.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo para la discusión inicial, mesas de trabajo para colorear, espacio para que Kinderbot se mueva).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Practicar el truco de magia simple y la programación básica de Kinderbot para asegurar una ejecución fluida.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Despertando Cerebros Curiosos! ⏰ 5 min</h2>
+<p>Comenzamos nuestra misión con una chispa de misterio y una pregunta... ¿qué es la magia y qué no lo es?</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Círculo del Misterio ⏰ 3 min</h3>
+<p>Invita a los niños a sentarse en círculo. Inicia una conversación intrigante sobre la magia y la ciencia. (Proyectar Diapositiva 1)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, pequeños exploradores de la verdad! ¡Qué emoción tenerlos listos para nuestra misión de hoy! Soy su Capitán [Tu Nombre], y hoy vamos a desentrañar un gran misterio. ¿Están listos para pensar y descubrir?</p>
+<p class="dialogue assistant">Miren esto... (Saca la varita mágica y haz un gesto divertido, como si fueras a hacer algo mágico, pero sin truco aún). ¿Qué es esto? ¡Una varita mágica! ¿Ustedes creen en la magia? ¿Alguna vez han visto algo que parece… ¡magia de verdad!?</p>
+<p class="dialogue assistant">Cuando un mago hace algo, ¿necesita dar una explicación de cómo lo hizo? ¿O simplemente lo hace y ya? Piénsenlo, ¿un mago hace cosas que no tienen explicación? ¿Es un secreto?</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Explorando la Magia y la Ciencia ⏰ 2 min</h3>
+<p>Guía la conversación hacia la diferencia entre un mago y un científico, y la explicación detrás de los fenómenos. (Proyectar Diapositiva 2)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Ahora, piensen en otra persona... ¿Qué hace un científico? ¿Un científico también hace cosas asombrosas, verdad? Pero, ¿un científico guarda secretos o le gusta explicar cómo funcionan las cosas?</p>
+<p class="dialogue assistant">Por ejemplo, si un científico nos muestra cómo una semilla se convierte en una planta, ¿nos explica cómo pasa o solo dice "¡es magia!"? ¡Claro, nos explica! La magia parece no tener explicación, pero la ciencia y la tecnología... ¡ellas sí tienen una explicación, un porqué! ¡Hoy vamos a ser como pequeños científicos y descubrir la explicación detrás de algo muy asombroso!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Gran Show: ¿Ilusión o Instrucción? ⏰ 10 min</h2>
+<p>Aquí es donde la 'magia' sucede... o no. ¡Preparémonos para ver algo sorprendente y luego entenderlo!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Truco Sorprendente ⏰ 5 min</h3>
+<p>Realiza un truco de magia simple con una moneda o pañuelo, manteniendo el misterio. Usa la varita mágica. (Proyectar Diapositiva 3)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Shhh! Acérquense, porque el Capitán [Tu Nombre] les va a mostrar algo que parece sacado de un libro de cuentos... ¡Miren con mucha atención! (Sostén la varita mágica en una mano y el objeto para el truco en la otra. Realiza un truco simple como hacer desaparecer una moneda o un pañuelo en tu puño, o hacer que aparezca de un lugar inesperado. Hazlo con dramatismo y una sonrisa de "misterio").</p>
+<p class="dialogue assistant">¡Abracadabra! ¡Tachán! ¿Lo vieron? ¡Es magia! ¿Verdad? ¡Qué increíble! ¡Puf! ¿Cómo lo hice? ¡Es un secreto de mago! ¡No hay explicación! ¿O quizás sí...? ¡Hmmmm! Mantengan ese misterio en su cabeza.</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: El Robot Asombroso ⏰ 5 min</h3>
+<p>Presenta a Kinderbot. Programa una acción sencilla pero 'sorprendente' (ej. detenerse ante un color). Usa el 'destornillador' de juguete. (Proyectar Diapositiva 4)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Ahora, prepárense para conocer a un amigo muy especial. ¡Este amigo no tiene varita mágica, pero hace cosas asombrosas! ¡Es nuestro Kinderbot! (Saca el Kinderbot y el 'destornillador' de juguete. Simula 'ajustar' algo en el robot con el destornillador, como si lo estuvieras 'programando').</p>
+<p class="dialogue assistant">Para que Kinderbot haga algo, no necesito una varita mágica. Necesito darle... ¡instrucciones! Es como decirle: "Kinderbot, SI ves algo rojo, ENTONCES detente". ¡Voy a darle esa instrucción! (Coloca el bloque rojo o el objeto rojo frente al Kinderbot en el suelo). Ahora, ¡miren esto! (Activa a Kinderbot para que avance y se detenga al detectar el color rojo).</p>
+<p class="dialogue assistant">¡Wow! ¿Eso también es magia? ¿Kinderbot hizo 'puf' y se detuvo? ¿O hay un secreto, una explicación, detrás de lo que hace Kinderbot? ¡Vamos a descubrirlo!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Manos a la Obra! Pintando la Verdad de las Máquinas ⏰ 20 min</h2>
+<p>Mientras nuestras manitas crean arte, nuestras mentes descubrirán cómo los robots hacen cosas increíbles sin varitas mágicas.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Organizando Nuestra Obra de Arte ⏰ 2 min</h3>
+<p>Distribuye las hojas para colorear (magos y robots) y los crayones. Asegúrate de que cada niño tenga su material. (Proyectar Diapositiva 5)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente, equipo! Ahora que hemos visto cosas sorprendentes, es hora de poner nuestras mentes y nuestras manos a trabajar. Les voy a dar una hoja especial con dibujos de magos y de robots, y crayones para que nos ayuden a pensar mientras coloreamos. ¿Están listos para crear y descubrir al mismo tiempo?</p>
+<p class="dialogue assistant">Tomen sus crayones favoritos y empiecen a darle vida a sus dibujos. ¡Recuerden, mientras coloreamos, vamos a seguir pensando en nuestro gran misterio!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Conversando con Crayones ⏰ 18 min</h3>
+<p>Mientras los niños colorean, guía una conversación abierta y curiosa, conectando las acciones de Kinderbot con el concepto de instrucciones. (Proyectar Diapositiva 6)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Qué dibujos tan increíbles están haciendo! Me encanta cómo le están poniendo color a los magos y a los robots. Mientras colorean, piensen conmigo:</p>
+<p class="dialogue assistant">¿Recuerdan cómo Kinderbot se detuvo cuando vio el bloque rojo? ¿Qué creen que le dijo el Capitán [Tu Nombre] para que hiciera eso? ¿Se lo pidió una varita mágica o fue una instrucción? ¡Exacto! Fue como si le dijéramos: "Kinderbot, SI ves rojo, ENTONCES para". Es como cuando ustedes siguen una instrucción, como "SI la campana suena, ENTONCES guardamos los juguetes".</p>
+<p class="dialogue assistant">Y el truco de la moneda... ¿ese es un secreto que el mago no nos cuenta, verdad? ¡Es diferente! Las máquinas, como Kinderbot, no hacen magia. Ellas son como detectives muy obedientes que siguen pistas, ¡instrucciones muy precisas que nosotros les damos!</p>
+<p class="dialogue assistant">¿Qué creen ustedes que hace que un robot se mueva o se pare? ¿Y qué pasaría si le decimos algo diferente? ¿Si le dijéramos "SI ves rojo, ENTONCES gira"? ¿Lo haría? ¡Sí, porque sigue nuestras instrucciones!</p>
+<p class="dialogue assistant">Así que, las máquinas hacen cosas asombrosas, pero no por arte de magia. Lo hacen porque las personas inteligentes las programan y les enseñan con datos, como cuando les decimos qué hacer o les mostramos ejemplos. ¡Son como alumnos muy muy obedientes que aprenden de nosotros!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: Misión Cumplida: ¡Nuestros Cerebros Son la Verdadera Magia! ⏰ 5 min</h2>
+<p>Cerramos nuestra aventura celebrando lo que hemos aprendido y lo poderosas que son nuestras propias ideas.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Compartiendo Descubrimientos ⏰ 3 min</h3>
+<p>Pide a los niños que muestren sus dibujos y compartan una idea clave que aprendieron sobre magos y robots. (Proyectar Diapositiva 7)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Equipo, alto ahí! ¡Misión casi completada! ¡Qué obras de arte tan bonitas han creado! Ahora, ¿quién quiere compartir su dibujo con el grupo? ¡Levanten sus dibujos para que todos los veamos!</p>
+<p class="dialogue assistant">Mientras muestran sus dibujos, ¿quién quiere contarnos qué fue lo más sorprendente que aprendió hoy sobre la magia y las máquinas? ¿Cuál es la diferencia más grande que encontraron entre un mago y un robot? ¿Un robot hace magia o sigue instrucciones?</p>
+<p class="dialogue assistant">Escuchemos a nuestros amigos, ¡seguro tienen ideas geniales que compartir!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: El Gran Final de la Misión ⏰ 2 min</h3>
+<p>Resume la sesión, reforzando la idea de que la verdadera 'magia' está en el pensamiento y la programación humana. (Proyectar Diapositiva 8)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Bravo, pequeños genios! ¡Han desenmascarado el secreto! Las máquinas no hacen magia, ¡hacen lo que nosotros, las personas inteligentes, les decimos que hagan! Tienen un cerebro de metal que sigue instrucciones, ¡y nosotros, con nuestro propio cerebro, somos los que damos esas instrucciones y los que creamos esas máquinas!</p>
+<p class="dialogue assistant">¡La verdadera magia no está en una varita, está en nuestra inteligencia, en nuestras ideas, y en cómo usamos nuestro cerebro para crear cosas asombrosas como Kinderbot y hacer que sigan nuestras instrucciones! ¡Felicidades, misión cumplida con éxito! ¡Son unos verdaderos científicos y pensadores críticos!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
